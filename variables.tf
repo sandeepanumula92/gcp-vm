@@ -51,3 +51,8 @@ variable "disk_size_gb" {
     error_message = "Always Free tier allows max 30GB standard disk."
   }
 }
+
+variable "gcp_sa_key" {
+  description = "GCP Service Accoun Key"
+  type        = string
+}
